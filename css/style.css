@@ -27,7 +27,7 @@ button {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-  }
+  } 
 
 button:hover {
     background-color: #102f5e;
@@ -50,7 +50,7 @@ select {
 
 .hide {
     display: none;
- }  
+}  
 
 /* todo header*/
 
@@ -60,17 +60,17 @@ select {
     background-color: #fdfdfd;
     padding: 1.5rem;
     border-radius: 15px;
-  }
+}
   
   .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #ccc;
-  }
-  
-/* todo form */
+}
+ /* todo form */
 
-#todo-form, #edit-form {
+#todo-form,
+#edit-form {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
@@ -99,6 +99,7 @@ select {
 #toolbar {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
+    display: flex;
 }
 
 #toolbar h4 {
