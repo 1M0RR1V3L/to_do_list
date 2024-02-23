@@ -9,12 +9,25 @@
 
 body {
     background-image: url("../img/bg_option2.jpg");
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 0.75;
+
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); 
+    z-index: -1; 
+}
 
 button {
     background-color: #fdfdfd;
