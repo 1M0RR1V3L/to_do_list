@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
     <link rel="stylesheet" href="css/style.css">
@@ -23,8 +22,11 @@
         <form id ="todo-form">
             <p>Add your task:</p>
             <div class="form-control">
-                <input type="text" id="todo-input"
-                 placeholder="What are you going to do?">
+                <input 
+                 type="text" 
+                 id="todo-input"
+                 placeholder="What are you going to do?"
+                 />
                 <button type="submit">
                     <i class="fa-thin fa-plus"></i>
                 </button>
@@ -44,8 +46,11 @@
             <div id="search">
                 <h4>Search:</h4>
                 <form>
-                    <input type="text" id="search-input"
-                     placeholder="Search..."/>
+                    <input 
+                     type="text" 
+                     id="search-input"
+                     placeholder="Search..."
+                     />
                      <button id="erase-button">
                         <i class="fa-solid fa-delete-left"></i>
                      </button>
@@ -61,18 +66,7 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo done">
-                <h3>I'm doing something...</h3>
-                <button class="finish-todo">
-                    <i class="fa-solid fa-check"></i>>
-                </button>
-                <button class="edit-todo">
-                    <i class="fa-solid fa-pen"></i>>
-                </button>
-                <button class="remove-todo">
-                    <i class="fa-solid fa-xmark"></i>>
-                </button>
-            </div>
+            <!--list-->
         </div>
     </div>
 </body>
